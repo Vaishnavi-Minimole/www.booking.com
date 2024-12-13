@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.navbar {
+    background-color: #023f95;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 10px;
+    height: 70px;
+
+}
+
+#logo {
+    width: 400px;
+}
+
+#inr {
+    width: 546px;
+}
+
+.partner {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+.card {
+    background-color: #023f95;
+
+}
+
+.card-post {
+    background-color: white;
+
+}
+
+.trip-image {
+    position: absolute;
+    opacity: .86;
+    height: 367px;
+    border-radius: 10px;
+    width: 40%;
+    display: block;
+
+}
+
+.tagline {
+    padding: 0;
+    margin: 0;
+    margin-block-end: .67rem;
+    font-weight: bolder;
+}
+
+.main-container {
+    border-radius: 3px 3px 0 0;
+    box-sizing: border-box;
+    padding: 75px 0 0 15px;
+}
+
+.footer-table {
+    background-color: rgb(243, 239, 239);
+}
+
+.table {
+    font-size: small;
+}
+
+.footer-base {
+    font-size: smaller;
+    margin-left: 500px;
+}
+html{
+    scroll-behavior: smooth;
+}
